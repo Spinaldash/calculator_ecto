@@ -1,8 +1,34 @@
 doctype html
 html(lang='en')
   head
+    link(rel='stylesheet', href='/style.css')
     meta(charset='utf-8')
-    title Prototype
+    title Janky Calc
   body
-    h1 Hello, World
+    h1 Makeup Kit Calculator
+    .calcBody
+      .symbolBody
+        #addOp.symbol +
+        #multiOp.symbol *
+        #divideOp.symbol /
+        #minusOp.symbol -
+        #exOp.symbol ^
+        #rootOp.otherSym √
+        #equals.otherSym =
+        #clear.symbol C
+      .numberBody
+        #display(maxlength='10') 0
+        button#one.round 1
+        button#two.round 2
+        button#three.round 3
+        button#four.round 4
+        button#five.round 5
+        button#six.round 6
+        button#seven.round 7 
+        button#eight.round 8 
+        button#nine.round 9
+        button#zero.round 0
+        button#inverse.round ±
+        button#decimal.round .
     script(src='/vendor/jquery/dist/jquery.js')
+    script(src='/main.js')
