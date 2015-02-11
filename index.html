@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="/style.css">
+    <meta charset="utf-8">
+    <title>Janky Calc</title>
+  </head>
+  <body>
+    <h1>Janky Calc</h1>
+    <div class="calcBody">
+      <div class="symbolBody">
+        <div id="addOp" class="symbol">+</div>
+        <div id="multiOp" class="symbol">*</div>
+        <div id="divideOp" class="symbol">/</div>
+        <div id="minusOp" class="symbol">-</div>
+        <div id="exOp" class="symbol">^</div>
+        <div id="rootOp" class="otherSym">√</div>
+        <div id="equals" class="otherSym">=</div>
+        <div id="clear" class="symbol">C</div>
+      </div>
+      <div class="numberBody">
+        <div id="display" maxlength="10">0</div>
+        <button id="one" class="round">1</button>
+        <button id="two" class="round">2</button>
+        <button id="three" class="round">3</button>
+        <button id="four" class="round">4</button>
+        <button id="five" class="round">5</button>
+        <button id="six" class="round">6</button>
+        <button id="seven" class="round">7 </button>
+        <button id="eight" class="round">8 </button>
+        <button id="nine" class="round">9</button>
+        <button id="zero" class="round">0</button>
+        <button id="inverse" class="round">±</button>
+        <button id="decimal" class="round">.</button>
+      </div>
+    </div>
+    <script src="/vendor/jquery/dist/jquery.js"></script>
+    <script src="/main.js"></script>
+  </body>
+</html>

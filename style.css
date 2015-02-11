@@ -1,0 +1,87 @@
+#display {
+  border: 1px solid  black;
+  border-radius: 10px;
+  min-height: 32px;
+  margin-top: 13px;
+  margin-bottom: 10px;
+  background: rgba(255, 235, 205, 0.9);
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  overflow: hidden;
+}
+h1 {
+  color: white;
+}
+body {
+  background-color: black;
+}
+.symbolBody {
+  float: right;
+  width: 120px;
+  height: auto;
+}
+.calcBody {
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #493d25;
+}
+.numberBody {
+  width: 159px;
+  padding: 10px;
+  background-color: #493d25;
+}
+.round {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border: 1px solid black;
+  margin: 5px;
+  border-radius: 50%;
+  background: rgba(255, 235, 205, 0.9);
+}
+.symbol {
+  max-height: 29px;
+  display: block;
+  border: 1px solid black;
+  margin: 3px;
+  border-radius: 25px;
+  background: rgba(255, 235, 205, 0.9);
+  text-align: center;
+  line-height: 35px;
+  vertical-align: middle;
+}
+.otherSym {
+  max-height: 29px;
+  display: block;
+  border: 1px solid black;
+  margin: 3px;
+  border-radius: 25px;
+  background: rgba(255, 235, 205, 0.9);
+  text-align: center;
+  line-height: 35px;
+  vertical-align: middle;
+}
+#clear {
+  background-color: #e8d400;
+}
+#display {
+  text-align: right;
+}
+#addOp {
+  background-color: #e8d400;
+}
+#multiOp {
+  background-color: #c00260;
+}
+#divideOp {
+  background-color: #01ada6;
+}
+#rootOp {
+  background-color: #e67800;
+}
+#exOp {
+  background-color: rgba(230, 0, 201, 0.8);
+}
+#minusOp {
+  background-color: rgba(6, 230, 0, 0.8);
+}
